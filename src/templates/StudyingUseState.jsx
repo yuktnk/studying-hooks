@@ -65,7 +65,7 @@ const StudyingUseState = () => {
 
   return (
     <Wrapper>
-      
+
       <Section>
         <Title>useStateの構文</Title>
         <CordZone>

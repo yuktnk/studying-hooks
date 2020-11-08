@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
 import { Button, makeStyles } from '@material-ui/core';
 import axios from 'axios';
+import { Cleanup } from './index.js';
 
 const StudyingUseEffect = () => {
   const classes = useStyles();
@@ -78,6 +79,9 @@ const StudyingUseEffect = () => {
         )}
       </Section>
 
+      <Section>
+        <Cleanup />
+      </Section>
 
     </Wrapper>
   )

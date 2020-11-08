@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Toppage, StudyingUseState, StudyingUseEffect, Cleanup } from './templates/index';
+import { Toppage, StudyingUseState, StudyingUseEffect, Cleanup, Navbar } from './templates/index';
 
 const Router = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route exact path={"/"} component={Toppage} />
         <Route exact path={"/usestate"} component={StudyingUseState} />

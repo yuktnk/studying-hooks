@@ -33,6 +33,7 @@ const Timer = () => {
 
 
 const Cleanup = () => {
+
   const [visible, setVisible] = useState(true);
 
   return (
