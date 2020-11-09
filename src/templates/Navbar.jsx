@@ -21,7 +21,7 @@ const Navbar = () => {
         <Button variant="contained" className={classes.button}>useEffect</Button>
       </Link>
 
-      <Link to="" className={classes.link}>
+      <Link to="useref" className={classes.link}>
         <Button variant="contained" className={classes.button}>useRef</Button>
       </Link>
 
