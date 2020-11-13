@@ -20,7 +20,7 @@ const Count = () => {
       <p>
         前回のcountより{prevCountRef.current > count ? "小さい" : "大きい"}
       </p>
-      <Button onClick={() => setCount(Math.floor(Math.random() * 11))}>
+      <Button variant="contained" onClick={() => setCount(Math.floor(Math.random() * 11))}>
         update
       </Button>
     </>

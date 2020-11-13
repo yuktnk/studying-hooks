@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Count } from '../components/useRef/index.js'
+import { Count, Count2 } from '../components/useRef/index.js'
 
 const StudyingUseRef = () => {
   return (
@@ -24,6 +24,11 @@ const StudyingUseRef = () => {
       <Section>
         <Title>useRefの利用例</Title> 
         <Count />
+      </Section>
+
+      <Section>
+        <Title>useRefの利用例2</Title> 
+        <Count2 />
       </Section>
 
     </Wrapper>
