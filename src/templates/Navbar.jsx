@@ -25,7 +25,7 @@ const Navbar = () => {
         <Button variant="contained" className={classes.button}>useRef</Button>
       </Link>
 
-      <Link to="" className={classes.link}>
+      <Link to="reactmemo" className={classes.link}>
         <Button variant="contained" className={classes.button}>React.memo</Button>
       </Link>
 
